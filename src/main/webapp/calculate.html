@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hesap Makinesi</title>
+</head>
+<body>
+<form action="/dynamicWeb/calculate" method="get">
+        <label>Birinci Sayı:</label>
+        <input type="text" id="sayi1" name="sayi1"><br>
+
+        <label>İkinci Sayı:</label>
+        <input type="text" id="sayi2" name="sayi2"><br>
+
+        <label>İşlem:</label>
+        <select id="islem" name="islem">
+            <option value="toplama">Toplama</option>
+            <option value="cikarma">Çıkarma</option>
+            <option value="carpma">Çarpma</option>
+            <option value="bolme">Bölme</option>
+        </select><br>
+
+        <input type="submit" value="Hesapla">
+    </form>
+</body>
+</html>

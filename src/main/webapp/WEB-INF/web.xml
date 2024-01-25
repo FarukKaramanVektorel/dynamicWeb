@@ -19,4 +19,34 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ParametersServlet</display-name>
+    <servlet-name>ParametersServlet</servlet-name>
+    <servlet-class>com.web.ParametersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ParametersServlet</servlet-name>
+    <url-pattern>/ParametersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>YasHesaplaServlet</display-name>
+    <servlet-name>YasHesaplaServlet</servlet-name>
+    <servlet-class>com.web.YasHesaplaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>YasHesaplaServlet</servlet-name>
+    <url-pattern>/YasHesaplaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CalculateServlet</display-name>
+    <servlet-name>CalculateServlet</servlet-name>
+    <servlet-class>com.web.CalculateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CalculateServlet</servlet-name>
+    <url-pattern>/CalculateServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
