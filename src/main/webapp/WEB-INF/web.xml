@@ -49,4 +49,24 @@
     <servlet-name>CalculateServlet</servlet-name>
     <url-pattern>/CalculateServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AsalSayiServlet</display-name>
+    <servlet-name>AsalSayiServlet</servlet-name>
+    <servlet-class>com.web.AsalSayiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AsalSayiServlet</servlet-name>
+    <url-pattern>/AsalSayiServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SQLSelectServlet</display-name>
+    <servlet-name>SQLSelectServlet</servlet-name>
+    <servlet-class>com.web.SQLSelectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SQLSelectServlet</servlet-name>
+    <url-pattern>/SQLSelectServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
